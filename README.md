@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project deploys the Ruby on Rails framework in order to create a tribute page to Norman Borlaug.
 
-Things you may want to cover:
+When the application is downloaded to your local machine you will have to configure the database permissions in the database.yml file to be congruent with your system.
 
-* Ruby version
+Run 'rails db:create' and then 'rails db:migrate' to instantiate the database.
 
-* System dependencies
+Run the server with the command 'rails s'.
 
-* Configuration
+You may view the page that the app serves and peruse at your leisure to learn more about Borlaug. 
 
-* Database creation
+The CSS in the site uses @media queries to deliver responsiveness on your device. 
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
